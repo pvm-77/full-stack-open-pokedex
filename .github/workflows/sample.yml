@@ -1,0 +1,15 @@
+name: Hello World!
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  date and dir:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Now it is
+        run: |
+          echo date
+  
